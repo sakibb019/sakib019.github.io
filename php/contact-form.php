@@ -2,7 +2,7 @@
 /*
 Name: 			Contact Form
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	8.0.0
+Theme Version:	8.3.0
 */
 
 namespace PortoContactForm;
@@ -20,7 +20,7 @@ require 'php-mailer/src/SMTP.php';
 require 'php-mailer/src/Exception.php';
 
 // Step 1 - Enter your email address below.
-$email = 'you@domain.com';
+$email = 'sakibmahmood485@gmail.com';
 
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
 $debug = 0;
@@ -64,7 +64,7 @@ try {
 	//$mail->SMTPSecure = 'tls';                               // Enable encryption, 'ssl' also accepted
 	//$mail->Port = 587;   								       // TCP port to connect to
 
-	$mail->AddAddress($email);	 						       // Add another recipient
+	$mail->sakibmahmood485@gmail.com;	 						       // Add another recipient
 
 	//$mail->AddAddress('person2@domain.com', 'Person 2');     // Add a secondary recipient
 	//$mail->AddCC('person3@domain.com', 'Person 3');          // Add a "Cc" address. 
